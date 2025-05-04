@@ -33,7 +33,7 @@ cd xiaozhi-ui
 npm i
 npm run dev
 ```
-- 找到项目中的XiaozhiApp，右键运行，然后浏览器打开http://localhost:5173/，即可对话。
+- 找到项目中的XiaozhiApp，右键运行，然后浏览器打开[http://localhost:5173/](http://localhost:5173/)，即可对话。
 
 ## 参考资料
 本项目是尚硅谷的[小智医疗项目](https://www.bilibili.com/video/BV1cpLTz1EVp?spm_id_from=333.788.videopod.episodes&vd_source=9a3b398e8389e2adc240e2a49c27a6c6)的源码，若需要更详细的了解，请移步B站看环环老师的讲解视频。
