@@ -6,7 +6,7 @@
 <img width="957" alt="xiaozhi" src="https://github.com/user-attachments/assets/e3ee9999-b7c9-4077-924e-a786f1520153" />
 
 ## 部署步骤
-- 用IDEA导入项目，等待依赖自动下载
+- 用IDEA导入后端项目java-ai-langchain4j，等待依赖自动下载
 - 找到resources下的application.properties文件，修改DASH_API_KEY（这个需要注册[阿里云](https://www.aliyun.com/)账号，点击大模型导航栏，再点击通义千问max，然后获取API_KEY，将API_KEY配置到系统环境变量中，环境变量名就叫DASH_SCOPE_API_KEY）
 ```
 langchain4j.open-ai.chat-model.api-key=${DASH_SCOPE_API_KEY}
@@ -24,6 +24,7 @@ spring.datasource.password=123456
 ```
 spring.data.mongodb.uri=mongodb://localhost:27017/chat_memory_db
 ```
+- 将knowledge压缩包放在没有中文的路径下，并解压
 - 配置Pinecone的环境变量，[官网](https://www.pinecone.io/)注册并登录（科学上网）,获取API_KEY并配置为环境变量，变量名为PINECONE_API_KEY
 - 安装Node.js（node-v18.17.1-x64.msi）
 - 配置npm镜像，打开cmd 执行`npm config set registry https://registry.npmmirror.com`
